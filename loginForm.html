@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Login Admin</title>
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <section class="row justify-content-center"></section>
+            <section class="col-12 col-sm-6 col-md-4"></section>
+            <form class="form-container" action="loginAdminProses.php" method="post">
+                <h3>Log In Admin</h3>
+                <div class="form-group">
+                    <label for="uname">Username</label>
+                    <input type="text" class="form-control" id="username" name="uname" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="pwd_admin">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" name="pwd_admin" placeholder="Password" required>
+                </div>
+                <center>
+                    <button class="btn btn-success" type="submit" name="login"><b>Log In</b></button>
+                </center>
+            </form>
+        </div>
+        
+    </body>
+</html>

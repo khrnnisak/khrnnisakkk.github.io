@@ -1,0 +1,18 @@
+body{
+    background: rgb(252, 235, 4);
+    padding-top: 10vh;  
+}
+form{
+    background: #fff;
+    width: 500px;
+    margin-left: 350px;
+
+}
+ .form-container{
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.form-container h3{
+    text-align: center;
+}

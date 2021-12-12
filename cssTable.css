@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+h3, p{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid rgb(248, 158, 106);
+}
+th{
+    background-color: rgb(243, 176, 99);
+}
+th,td{
+    text-align: left;
+    padding: 16px;
+}
+tr:nth-child(even){
+    background-color: #f1e0cb;
+}
+.btn{
+    width: 90px;
+    height: 25px;
+    background-color: rgb(10, 209, 10);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.btn:hover{
+    width: 95px;
+    height: 30px;
+}
+.btn a{
+    color: white;
+}
+
+.btn1{
+    width: 90px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.btn1 a{
+    color: white;
+}
+.btn1:hover{
+    width: 95px;
+    height: 30px;
+}

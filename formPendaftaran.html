@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Form Pendaftaran</title>
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <section class="row justify-content-center"></section>
+            <section class="col-12 col-sm-6 col-md-4"></section>
+            <form class="form-container" method="get" action="insertProses.php">
+                <h3>SIGN UP</h3>
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" class="form-control" id="name" name="nama" placeholder="Masukkan Nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="InputEmail" name="email" placeholder="Masukkan Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="nama">No. Telepon</label>
+                    <input type="text" class="form-control" id="InputEmail" name="noTelp" placeholder="Masukkan No. Telepon" required>
+                </div>
+                <div class="form-group">
+                    <label for="nama">Alamat</label>
+                    <input type="text" class="form-control" id="InputEmail" name="alamat" placeholder="Masukkan Alamat" required>
+                </div>
+                <div class="form-group">
+                    <label for="nama">Username</label>
+                    <input type="text" class="form-control" id="Username" name="username" placeholder="Masukkan Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="nama">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" name="pwd" placeholder="Masukkan Password" required>
+                </div>
+                <center>
+                    <button type="submit" class="btn btn-success" name="register"><b>Sign Up</b></button>
+                </center>
+               
+            </form>
+        </div>   
+    </body>
+</html>
